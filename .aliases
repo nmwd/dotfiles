@@ -50,9 +50,6 @@ alias sshkey="pbcopy < ~/.ssh/id_rsa.pub && echo 'Copied key to clipboard'"
 
 alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
 
-#Open chrome with no security
-open -a Google\ Chrome --args --disable-web-security -–allow-file-access-from-files
-
 alias acquiamysql="ln -s /Applications/DevDesktop/mysql/data/mysql.sock /tmp/mysql.sock"; 
 
 alias sassyplate="git clone git@github.com:domain7/sassyplate.git .";
