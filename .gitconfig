@@ -1,9 +1,7 @@
 [core]
 	autocrlf = false
 	safecrlf = true
-	editor = EDITOR=/usr/bin/vim
-	editor = open -W -n
-	editor = /usr/bin/vim
+	editor = subl -n -w
   excludesfile = ~/.gitignore
   attributesfile = ~/.gitattributes
 [alias]
@@ -37,4 +35,5 @@
 [merge]
   log = true
 [user]
-	email = reuben@domain7.com
+	name = Nicholas Monfils
+	email = nicholas@domain7.com
