@@ -1,8 +1,8 @@
 [core]
 	autocrlf = false
 	safecrlf = true
-	editor = subl -n -w
-  excludesfile = ~/.gitignore
+	editor = atom -n -w
+	excludesfile = /Users/nicholasmonfils/.gitignore_global
   attributesfile = ~/.gitattributes
 [alias]
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
